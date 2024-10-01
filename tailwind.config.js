@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bg-layer-hero': "url('../assets/image/webp/bg-layer-hero.png')",
+        'hero-layer': "url('./assets/image/webp/hero-layer.webp')",
       },
       fontFamily: {
         'inter': "'Inter', sans-serif",

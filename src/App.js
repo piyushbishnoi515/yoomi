@@ -1,10 +1,16 @@
 import './App.css';
-import Header from './components/Header';
+import AmazingFeatures from './components/home/Amazing';
+import Hero from './components/home/Hero';
+import Tracking from './components/home/Tracking';
+import Workout from './components/home/Workout';
 
 function App() {
   return (
     <>
-      <Header/>
+      <Hero />
+      <Workout />
+      <AmazingFeatures />
+      <Tracking />
     </>
   );
 }
